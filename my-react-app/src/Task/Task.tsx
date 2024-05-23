@@ -1,9 +1,14 @@
+import React from "react";
 
-const Task = () => {
+interface TaskProps {
+    task: string,
+}
 
+const Task: React.FC<TaskProps> = ({task}) => {
     return (
-        <div>
-
+        <div className="tasks">
+            <p>{task}</p>
+            <button>Delete</button>
         </div>
     );
 };

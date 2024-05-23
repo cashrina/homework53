@@ -13,3 +13,8 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.tasks {
+  display: flex;
+  margin-bottom: 10px;
+}
